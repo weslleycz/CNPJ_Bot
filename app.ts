@@ -23,8 +23,6 @@ fs.createReadStream('dados.csv')
     }
     let option= readlineSync.question('Gostaria de realizar a pesquisa(S/N)? ');
     if (option=="s"||option=="S"){
-      data=""
-      data = `CNPJ,Razão Social,Nome Fantasia,Data da Abertura,Porte,Natureza Jurídica`;7
       console.clear();
       console.log('Busca em andamento...');
       consultaCNPJ(results);
@@ -71,4 +69,5 @@ async function consultaCNPJ(params) {
     console.log('Busca terminado✅');
   }
   axi=0;
+  data = `CNPJ,Razão Social,Nome Fantasia,Data da Abertura,Porte,Natureza Jurídica`;
 }
