@@ -2,12 +2,6 @@
 
 <img height="400px" src="https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iPydabyJCgFo/v0/1200x-1.jpg" />
 
-<<<<<<< Updated upstream
-# 📖About
-CNPJBot e um bot que pesquisa na internet quaisquer cnpjs válidos e retorna um documento com um relatório.
-
-=======
->>>>>>> Stashed changes
 # 💻Executando
 <ol start="1">
 <li>
